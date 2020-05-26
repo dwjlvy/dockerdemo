@@ -1,7 +1,7 @@
 
 
 # 基于microsoft/aspnetcore:3.1构建Docker Image
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-sli
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
  
 # 设置工作路径
 WORKDIR /app
